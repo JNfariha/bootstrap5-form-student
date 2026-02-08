@@ -1,0 +1,46 @@
+body{
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+
+}
+/* hero card start*/
+.card-custom{
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.hero-card{
+    background: linear-gradient(135deg, #0d6efd, #6f42c1);
+    color: white;
+}
+/* hero card end */
+/* project card hover */
+.project-card {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+/* project card hover end */
+
+/* contact start */
+#contact.card-custom{
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+#contact .form-check-label {
+     font-size: 1rem; 
+     font-weight: 500;
+     color: #212529;
+     margin-left: 4px;
+    cursor: pointer; 
+    transition: color 0.3s;
+}
+/* contact end */
+
+/* footer start */
+footer{
+    background-color: #212529;
+    color: white;  
+}
+/* footer end */
